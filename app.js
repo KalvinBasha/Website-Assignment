@@ -1,5 +1,5 @@
 // console.log("hello world");
-const music = document.getElementById("music");
+/* const music = document.getElementById("music");
 const playBtn = document.getElementById("playBtn");
 const pauseBtn = document.getElementById("pauseBtn");
 const stopBtn = document.getElementById("stopBtn");
@@ -25,4 +25,4 @@ skipBack.addEventListener("click", function () {
 
 skipFor.addEventListener("click", function () {
   music.currentTime = music.currentTime + 10;
-});
+}); */

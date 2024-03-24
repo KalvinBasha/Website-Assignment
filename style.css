@@ -1,6 +1,7 @@
 * {
   font-family: sans-serif;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -34,17 +35,23 @@ h1 {
 }
 
 .navbar a:hover {
-  color: blue;
+  text-decoration-line: underline;
 }
 
-.feature1 {
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home {
   height: 100vh;
   background-image: url(./assets/desert.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-.feature2 {
+#locations {
   height: 100vh;
   background-image: url(./assets/desert3.jpg);
   background-size: cover;
@@ -61,19 +68,16 @@ h1 {
   gap: 20px;
 }
 
-/*.title2 {
-  position: absolute;
-  bottom: 200px;
-  left: 50px;
-  padding: 10px;
-}*/
+.title2 {
+  padding-left: 50px;
+}
 
-.home-h2 {
+#home-h21 {
   text-transform: uppercase;
   font-size: x-large;
 }
 
-.home-h1 {
+#home-h11 {
   text-transform: uppercase;
   font-size: 400%;
 }
@@ -91,6 +95,21 @@ h1 {
   border: 5px solid black;
   padding: 10px 5px;
   text-decoration: none;
+}
+
+.home-a :hover {
+  text-decoration: none;
+  color: black;
+}
+
+#home-h22 {
+  text-transform: uppercase;
+  font-size: x-large;
+}
+
+#home-h12 {
+  text-transform: uppercase;
+  font-size: 400%;
 }
 
 footer {
